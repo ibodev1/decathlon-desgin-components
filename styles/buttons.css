@@ -29,6 +29,10 @@
   width: 90%;
 }
 
+.w60 {
+  width: 60%;
+}
+
 .column-8 {
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -37,6 +41,11 @@
 .column-4 {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.column-3 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .row-4 {
