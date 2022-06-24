@@ -1,0 +1,339 @@
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.column-8 {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.column-4 {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row-4 {
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.columngap35 {
+  grid-column-gap: 35px;
+}
+
+.rowgap80 {
+  grid-row-gap: 80px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: white;
+  color: #001018;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 10px 0px;
+  font-size: 20px;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btn:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.p16 {
+  padding: 16px !important;
+}
+
+.i14 {
+  width: 14px;
+  height: 14px;
+}
+
+.i19 {
+  width: 19px;
+  height: 19px;
+}
+
+.i21 {
+  width: 21px;
+  height: 21px;
+}
+
+.i28 {
+  width: 28px;
+  height: 28px;
+}
+
+.btnsky {
+  background-color: #007dbc;
+  color: #fff;
+}
+
+.btnsky:hover {
+  background-color: #00689d;
+}
+
+.btnsky:active {
+  background-color: #00537d;
+}
+
+.btnwhite {
+  background-color: #fff;
+  border: 2px solid #ffffff;
+}
+
+.btnwhite:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btnwhite:active {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.btnlightblue {
+  background-color: #ffffff;
+  border: 2px solid #d9dde1;
+  color: #00689d;
+}
+
+.btnlightblue:hover {
+  background-color: #e7f3f9;
+}
+
+.btnlightblue:active {
+  background-color: #d9ecf5;
+}
+
+.btnblue {
+  background-color: #e7f3f9;
+  color: #00689d;
+}
+
+.btnblue:hover {
+  background-color: #d2e9f4;
+}
+
+.btnblue:active {
+  background-color: #cde6f2;
+}
+
+.btnyellow {
+  background-color: #ffea28;
+}
+
+.btnyellow:hover {
+  background-color: #fff48d;
+}
+
+.btnyellow:active {
+  background-color: #fff9c7;
+}
+
+.btnwtransblue {
+  background-color: transparent;
+  color: #00689d;
+}
+
+.btnwtransblue:hover {
+  background-color: #e7f3f9;
+}
+
+.btnwtransblue:active {
+  background-color: #d9ecf5;
+}
+
+.btntranswhite {
+  background-color: transparent;
+  color: #fff;
+}
+
+.btntranswhite:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.btntranswhite:active {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.whiteplusicon::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 15px;
+  background-image: url(../icons/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.blackplusicon::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 15px;
+  background-image: url(../icons/plus_black.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skyplusicon::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 15px;
+  background-image: url(../icons/plus_sky.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.whitemoveicon::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 13px;
+  margin-left: 15px;
+  background-image: url(../icons/move.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
+.blackmoveicon::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 13px;
+  margin-left: 15px;
+  background-image: url(../icons/move_black.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
+.basketicon::before {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  margin-right: 15px;
+  background-image: url(../icons/basket.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
+.skymoveicon::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 13px;
+  margin-left: 15px;
+  background-image: url(../icons/move_sky.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -3px;
+}
+
+.whitesearchicon::after {
+  content: "";
+  display: block;
+  background-image: url(../icons/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skysearchicon::after {
+  content: "";
+  display: block;
+  background-image: url(../icons/search_sky.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bigicon {
+  padding: 16px !important;
+}
+
+.bigicon::before {
+  width: 19px !important;
+  height: 19px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.bigicon::after {
+  width: 19px !important;
+  height: 19px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.x2bigicon {
+  padding: 13px !important;
+}
+
+.x2bigicon::before {
+  width: 28px !important;
+  height: 28px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.x2bigicon::after {
+  width: 28px !important;
+  height: 28px !important;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=buttons.css.map */

@@ -1,0 +1,121 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+.main .col .title {
+  margin-bottom: 20px;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.f96 {
+  font-size: 96px;
+}
+
+.f76 {
+  font-size: 76px;
+}
+
+.f60 {
+  font-size: 60px;
+}
+
+.f48 {
+  font-size: 48px;
+}
+
+.f44 {
+  font-size: 44px;
+}
+
+.f42 {
+  font-size: 42px;
+}
+
+.f40 {
+  font-size: 40px;
+}
+
+.f38 {
+  font-size: 38px;
+}
+
+.f36 {
+  font-size: 36px;
+}
+
+.f32 {
+  font-size: 32px;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f28 {
+  font-size: 28px;
+}
+
+.f26 {
+  font-size: 26px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f22 {
+  font-size: 22px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+/*# sourceMappingURL=typography.css.map */

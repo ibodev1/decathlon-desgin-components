@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/selection.css" />
+    <title>Selection</title>
+  </head>
+  <body>
+    <button onclick="javascript:window.history.back();" class="back-btn">
+      Go Back
+    </button>
+    <section>
+      <div class="flex">
+        <div>
+          <div class="box">
+            <label for="checkbox" class="checkbox-wrapper">
+              Label
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="box">
+            <label for="checkbox1" class="checkbox-wrapper disabled">
+              Label
+              <input type="checkbox" name="checkbox" id="checkbox1" disabled />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="box">
+            <label for="checkbox2" class="checkbox-wrapper none">
+              Label
+              <input type="checkbox" name="checkbox" id="checkbox2" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="box">
+            <label for="checkbox3" class="checkbox-wrapper none disabled">
+              Label
+              <input type="checkbox" name="checkbox" id="checkbox3" disabled />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+        <div>
+          <div class="box">
+            <label for="radio" class="radio-wrapper">
+              Label
+              <input type="radio" name="radio" id="radio" />
+              <span class="radiomark"></span>
+            </label>
+          </div>
+          <div class="box">
+            <label for="radio1" class="radio-wrapper">
+              Label
+              <input type="radio" name="radio" id="radio1" />
+              <span class="radiomark"></span>
+            </label>
+          </div>
+          <div class="box">
+            <label for="radio2" class="radio-wrapper disabled">
+              Label
+              <input type="radio" name="radio" id="radio2" />
+              <span class="radiomark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="box">
+        <label for="switch" class="switch-wrapper">
+          <input type="checkbox" name="switch" id="switch" />
+          <span class="switch-box">
+            <span class="switch-ball"></span>
+          </span>
+        </label>
+      </div>
+      <div class="box">
+        <label for="filter" class="filter-wrapper">
+          <input type="checkbox" name="filter" id="filter" />
+          <span class="filter-text">Filter Text</span>
+        </label>
+      </div>
+      <div class="box">
+        <div class="quantity">
+          <button id="negative">
+            <img src="icons/negative.svg" alt="a" />
+          </button>
+          <input type="number" name="number" id="number" value="0" readonly />
+          <button id="positive">
+            <img src="icons/positive.svg" alt="b" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="js/quantity.js"></script>
+  </body>
+</html>

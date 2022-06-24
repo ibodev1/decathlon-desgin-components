@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <title>Navigation</title>
+  </head>
+  <body>
+    <button onclick="javascript:window.history.back();" class="back-btn">
+      Go Back
+    </button>
+    <section>
+      <h2>Breadcrumb</h2>
+      <ul class="breadcrumb">
+        <li><a href="#">Start</a></li>
+        <li><a href="#">Middle</a></li>
+        <li><a href="#" class="middleicon">Middle</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">End</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Bar</h2>
+      <nav>
+        <div class="content">
+          <div class="logo">
+            <img src="img/logo.png" alt="logo" />
+          </div>
+          <div class="searchBar">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Placeholder"
+            />
+            <img src="icons/search_sky.svg" alt="" />
+          </div>
+          <div class="icons">
+            <ul>
+              <li><img src="icons/question.svg" alt="1" /></li>
+              <li><img src="icons/shop_black.svg" alt="2" /></li>
+              <li><img src="icons/avatar.svg" alt="4" /></li>
+              <li><img src="icons/basket_black.svg" alt="5" /></li>
+              <li><img src="icons/hamburger.svg" alt="6" /></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <h2>Search Bar</h2>
+      <div class="searchBox">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Placeholder"
+        />
+        <button>
+          <img src="icons/search_sky.svg" alt="sicon" />
+        </button>
+      </div>
+    </section>
+    <section>
+      <h2>Tabs</h2>
+      <div class="box">
+        <h4>Normal</h4>
+        <div class="tabs">
+          <ul>
+            <li><button>Tab Name</button></li>
+            <li><button>Tab Name</button></li>
+            <li><button class="active">Tab Name</button></li>
+            <li><button>Tab Name</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box">
+        <h4>With Heart</h4>
+        <div class="tabs">
+          <ul>
+            <li><button class="heart">Tab Name</button></li>
+            <li><button class="heart">Tab Name</button></li>
+            <li><button class="active heart">Tab Name</button></li>
+            <li><button class="heart">Tab Name</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box">
+        <h4>With Number</h4>
+        <div class="tabs">
+          <ul>
+            <li>
+              <button>
+                Tab Name
+                <span class="number">1</span>
+              </button>
+            </li>
+            <li>
+              <button>Tab Name<span class="number">1</span></button>
+            </li>
+            <li>
+              <button class="active">
+                Tab Name<span class="number">1</span>
+              </button>
+            </li>
+            <li>
+              <button>Tab Name<span class="number">1</span></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box">
+        <h4>All</h4>
+        <div class="tabs">
+          <ul>
+            <li>
+              <button class="heart">
+                Tab Name
+                <span class="number">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="heart">
+                Tab Name<span class="number">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="active heart">
+                Tab Name<span class="number">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="heart">
+                Tab Name<span class="number">1</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

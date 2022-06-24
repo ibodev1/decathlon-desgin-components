@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/forms.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <button onclick="javascript:window.history.back();" class="back-btn">
+      Go Back
+    </button>
+    <div class="content">
+      <section>
+        <h2>Select</h2>
+        <div class="select-wrapper">
+          <label for="select">Label</label>
+          <div class="select">
+            <select>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="select-wrapper error">
+          <label for="select">Label</label>
+          <div class="select">
+            <select>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+          <div class="info">
+            <p class="errorMessage">Error message goes here</p>
+          </div>
+        </div>
+        <div class="select-wrapper disabled">
+          <label for="select">Label</label>
+          <div class="select">
+            <select disabled>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Textarea</h2>
+        <div class="textarea-wrapper" id="textarea-wrapper">
+          <label for="textarea">Label</label>
+          <textarea
+            name="textarea"
+            id="textarea"
+            placeholder="Placeholder Text"
+          ></textarea>
+          <div class="info">
+            <p class="errorMessage hide">Error message goes here</p>
+            <p id="count">0/200</p>
+          </div>
+        </div>
+        <div class="textarea-wrapper disabled" id="textarea-wrapper">
+          <label for="textarea">Label</label>
+          <textarea
+            name="textarea"
+            id="textarea"
+            placeholder="Placeholder Text"
+            disabled
+          ></textarea>
+          <div class="info">
+            <p class="errorMessage hide">Error message goes here</p>
+            <p id="count">0/200</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Input</h2>
+        <div class="inputs">
+          <div class="left">
+            <div class="input-wrapper">
+              <label for="input">Label</label>
+              <div class="input">
+                <input
+                  type="text"
+                  name="input"
+                  id="input"
+                  placeholder="Placeholder Text"
+                />
+              </div>
+              <div class="info">
+                <p class="help">Helper text goes here</p>
+              </div>
+            </div>
+            <div class="input-wrapper success">
+              <label for="input">Label</label>
+              <div class="input">
+                <input
+                  type="text"
+                  name="input"
+                  id="input"
+                  placeholder="Placeholder Text"
+                />
+              </div>
+              <div class="info">
+                <p class="help">Helper text goes here</p>
+              </div>
+            </div>
+            <div class="input-wrapper error">
+              <label for="input">Label</label>
+              <div class="input">
+                <input
+                  type="text"
+                  name="input"
+                  id="input"
+                  placeholder="Placeholder Text"
+                />
+              </div>
+
+              <div class="info">
+                <p class="errorMessage">Error message goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="input-wrapper date">
+              <label for="input">Label</label>
+              <div class="input">
+                <input
+                  type="text"
+                  name="input"
+                  id="input"
+                  placeholder="Placeholder Text"
+                />
+              </div>
+              <div class="info">
+                <p class="help">Helper text goes here</p>
+              </div>
+            </div>
+            <div class="input-wrapper date success">
+              <label for="input">Label</label>
+              <div class="input">
+                <input
+                  type="text"
+                  name="input"
+                  id="input"
+                  placeholder="Placeholder Text"
+                />
+              </div>
+              <div class="info">
+                <p class="help">Helper text goes here</p>
+              </div>
+            </div>
+            <div class="input-wrapper date error">
+              <label for="input">Label</label>
+              <div class="input">
+                <input
+                  type="text"
+                  name="input"
+                  id="input"
+                  placeholder="Placeholder Text"
+                />
+              </div>
+
+              <div class="info">
+                <p class="errorMessage">Error message goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/textarea.js"></script>
+  </body>
+</html>
